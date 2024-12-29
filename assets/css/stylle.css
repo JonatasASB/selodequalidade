@@ -1,0 +1,29 @@
+html, body {
+    overflow: hidden;
+}
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+main {
+    position: absolute;
+    margin-left: -120px;
+    box-shadow: 1px 10px 30px #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 80px;
+    background-color: rgb(121, 121, 235);
+    transform: rotate(320deg);
+}
+a {
+    margin-left: -100px;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff ;
+    color: #fff;
+    padding: 20px;
+}
